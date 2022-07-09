@@ -9,3 +9,9 @@ I considered how it would be interesting to be able to place a symbol over one o
 So while thinking of a fair way to be able to overwrite your opponent's counters, I remembered the famous Russian Doll toy also known as a Matryoshka Doll. This is a decorated container that holds another smaller version inside it. 
 
 With Matryoshka Dolls in mind, I had the idea to asign values to the counters (almost as if they were the different sized dolls). You are able to place down a counter on top of an opponent's if your counter is larger.
+
+![image](https://user-images.githubusercontent.com/97246704/178124728-277fadf0-3180-405e-9c05-ede59e3f6b7e.png)
+
+Result of the above move
+
+![image](https://user-images.githubusercontent.com/97246704/178124771-7eb533b0-d640-4bae-bc4a-531a350007ef.png)
