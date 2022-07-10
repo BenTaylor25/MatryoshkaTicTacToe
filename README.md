@@ -10,6 +10,8 @@ So while thinking of a fair way to be able to overwrite your opponent's counters
 
 With Matryoshka Dolls in mind, I had the idea to asign values to the counters (almost as if they were the different sized dolls). You are able to place down a counter on top of an opponent's if your counter is larger.
 
+I'm not currently sure whether this variant is solvable (though I would guess that it is) but my hope is that it is complex enough that it's not easily solvable; that casual players can't find it just from playing.
+
 ![image](https://user-images.githubusercontent.com/97246704/178124728-277fadf0-3180-405e-9c05-ede59e3f6b7e.png)
 
 Result of the above move
