@@ -53,10 +53,14 @@ def to_col(sl):
             nsl[i] = nsl[i][0]
     return nsl
 
-def check_game_over(grid):
+def check_game_over(grid, redlist, bluelist):
     game_over = False
     game_draw = False
     red_win = False
+
+    if len(redlist + bluelist) == 0:
+        game_over = True
+        game_draw = True
 
     grid_full = True
     for row in grid:
@@ -65,7 +69,6 @@ def check_game_over(grid):
     if grid_full:
         game_over = True
         game_draw = True
-
 
     col_grid = [to_col(row[:]) for row in grid]
 
@@ -116,7 +119,7 @@ def start_game():
         os.system("cls" if os.name == "nt" else "clear")
         draw(grid, redlist, bluelist)
 
-        game_over, game_draw, red_win = check_game_over(grid)
+        game_over, game_draw, red_win = check_game_over(grid, redlist, bluelist)
         if game_over:
             if game_draw:
                 print("draw")
