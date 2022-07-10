@@ -58,15 +58,18 @@ def check_game_over(grid, redlist, bluelist):
     game_draw = False
     red_win = False
 
+    # check no-remaining-counters draw
     if len(redlist + bluelist) == 0:
         game_over = True
         game_draw = True
 
+    # check full grid draw
     grid_full = True
     for row in grid:
         for itm in row:
             grid_full = grid_full and (itm)
-    if grid_full:
+    can_take = sum([int(x) for x in redlist + bluelist]) > 1
+    if grid_full and not can_take:
         game_over = True
         game_draw = True
 
