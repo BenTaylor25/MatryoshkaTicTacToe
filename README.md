@@ -12,6 +12,8 @@ With Matryoshka Dolls in mind, I had the idea to asign values to the counters (a
 
 I'm not currently sure whether this variant is solvable (though I would guess that it is) but my hope is that it is complex enough that it's not easily solvable; that casual players can't find it just from playing.
 
+This is a demo created in about two hours for a Game Design course at Lucerne University.
+
 ![image](https://user-images.githubusercontent.com/97246704/178124728-277fadf0-3180-405e-9c05-ede59e3f6b7e.png)
 
 Result of the above move
