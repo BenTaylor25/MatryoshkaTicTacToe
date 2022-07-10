@@ -14,6 +14,13 @@ I'm not currently sure whether this variant is solvable (though I would guess th
 
 This is a demo created in about two hours for a Game Design course at Lucerne University.
 
+## Demo
+
+https://user-images.githubusercontent.com/97246704/178140006-a7910733-c05d-4c31-9a0c-113c47b77f86.mp4
+
+
+## Controls
+
 ![image](https://user-images.githubusercontent.com/97246704/178124728-277fadf0-3180-405e-9c05-ede59e3f6b7e.png)
 
 Result of the above move
