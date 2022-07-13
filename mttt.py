@@ -23,13 +23,17 @@ def move(turn, grid, redlist, bluelist):
         
         colour = colours[turn]
 
+        '''
         val_available = True
         for r in grid:
             for item in r:
                 if item == colour+str(val):
                     val_available = False
+        '''
+        val_available = str(val) in colLists[turn]
         if not val_available:
             continue
+        
 
         current = grid[row][col]
         if current != "":
@@ -111,8 +115,8 @@ def check_game_over(grid, redlist, bluelist):
 
 
 def start_game():
-    redlist = [str(x) for x in range(1, 6)]
-    bluelist = [str(x) for x in range(1, 6)]
+    redlist = [str(x) for x in range(1, 6)]+['2','3','4']
+    bluelist = [str(x) for x in range(1, 6)]+['2','3','4']
     grid = [['' for _ in range(3)] for _ in range(3)]
     turn = 0
     game_loop = True
@@ -128,7 +132,8 @@ def start_game():
                 print("draw")
             else:
                 players = ["One", "Two"]
-                print(f"Player {players[not red_win]} Wins!")
+                # print(f"Player {players[not red_win]} Wins!")
+                print(f"Player {players[turn]} Wins!")
             game_loop = False
         turn = 1 - turn
 
